@@ -1,5 +1,8 @@
 # Sort multi-line arguments เรียงลำดับ argument หลายบรรทัด
 
+
+ 
+
 ```dockerfile
 
 RUN apt-get update && apt-get install -y \
@@ -9,3 +12,5 @@ RUN apt-get update && apt-get install -y \
   mercurial \
   subversion
   ```
+
+ดูตัวอย่างประกอบจาก image `buildpack-deps`
