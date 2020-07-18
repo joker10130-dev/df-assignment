@@ -1,6 +1,6 @@
 # Sort multi-line arguments เรียงลำดับ argument หลายบรรทัด
 
-```Dockerfile
+```dockerfile
 
 RUN apt-get update && apt-get install -y \
   bzr \
