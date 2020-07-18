@@ -15,4 +15,4 @@ RUN apt-get update && apt-get install -y \
   subversion
   ```
 
-ดูตัวอย่างประกอบจาก image `buildpack-deps`
+ดูตัวอย่างประกอบจาก image [`buildpack-deps`](https://github.com/docker-library/buildpack-deps)
