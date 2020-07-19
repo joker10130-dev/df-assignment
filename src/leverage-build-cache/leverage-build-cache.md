@@ -16,7 +16,7 @@
 
 ###### T. Dumrongthawatchai. (2019, September 10). Docker EP. 6: ลองใช้ Docker กับโปรเจคของเรากันเถอะ. Retrived from https://dekcrack.com/docker-ep-6-ลองใช้-docker-กับโปรเจคของเรากันเถอะ
 
-* สำหรับคำสั่ง `ADD` และ `COPY` ที่อยู่ใน `Dockerfile` จะมีการตรวจสอบความถูกต้องจากค่าคำนวณ checksum โดยจะมีการเปรียนเทียบกับค่า checksum ของ image ที่อยู่ใน cache มาก่อนถ้ามีการเปลี่ยนแปลง
+* สำหรับคำสั่ง `ADD` และ `COPY` ที่อยู่ใน `Dockerfile` จะมีการตรวจสอบความถูกต้องจากค่าคำนวณ checksum โดยจะมีการเปรียบเทียบกับค่า checksum ของ image ที่อยู่ใน cache มาก่อนถ้ามีการเปลี่ยนแปลง
 ต่างๆ เกิดขึ้นจะไม่มีการใช้ cache เข้ามาช่วย
 
 * แต่คำสั่ง `ADD` และ `COPY` จะไม่มีการตรวจสอบไฟล์ที่อยู่ภายใน Docker Container หากมีการ hit เกิดขึ้นใน cache 
