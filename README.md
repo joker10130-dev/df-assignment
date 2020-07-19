@@ -1,5 +1,4 @@
 # Index
-
 ### Suthinan Musitmani
 * [Pipe Dockerfile through stdin](src/pipe-dockerfile-through-stdin.md)
 * [Exclude with .dockerignore](src/exclude-with-dockerignore.md)
