@@ -3,14 +3,15 @@
 ![Docker](https://miro.medium.com/max/405/1*UdM3Isk3gfnEOX7r6lWI8A.png)
 
 ## [General guidelines and recommendations](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
-  - *Create ephemeral containers*
-  - *Understand build context*
+  - [*Intro*](src/intro.md)
+  - [*Create ephemeral containers*](src/create-ephemeral-containers.md)
+  - [*Understand build context*](src/understanding-build-context)
   - [*Pipe Dockerfile through* `stdin`](src/pipe-dockerfile-through-stdin.md)
   - [*Exclude with .dockerignore*](src/exclude-with-dockerignore.md)
   - [*Use multi-stage builds*](src/use-multi-stage-builds.md)
   - [*Don’t install unnecessary packages*](src/dont-install-unnecessary-packages.md)
-  - *Decouple applications*
-  - *Minimize the number of layers*
+  - [*Decouple applications*](src/decouple-applications)
+  - [*Minimize the number of layers*](src/minimize-the-number-of-layers.md)
   - [*Sort multi-line arguments*](src/sort-multiline-arguments/sort-multiline-arguments.md)
   - [*Leverage build cache*](src/leverage-build-cache/leverage-build-cache.md)
   
