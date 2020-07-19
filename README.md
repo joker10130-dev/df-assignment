@@ -12,7 +12,7 @@
   - *Decouple applications*
   - *Minimize the number of layers*
   - [*Sort multi-line arguments*](src/sort-multiline-arguments/sort-multiline-arguments.md)
-  - *Leverage build cache*
+  - [*Leverage build cache*](src/leverage-build-cache/leverage-build-cache.md)
   
   
   ## [Dockerfile instructions](#)
