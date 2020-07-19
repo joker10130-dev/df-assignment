@@ -1,4 +1,4 @@
-## Minimize the number of layers
+# Minimize the number of layers
 ในเวอร์ชันเก่าๆของ Docker จำเป็นต้องลดจำนวนชั้นใน images เพื่อการันตีประสิทธิภาพการทำงานดี
 ในเวอร์ชั่นปัจจุบันได้เพิ่ม features เพื่อช่วยลดขีดจำกัดนี้
 
