@@ -25,12 +25,12 @@
   - CMD
   - EXPOSE
   - ENV
-  - ADD or COPY
-  - ENTRYPOINT
-  - VOLUME
-  - USER
-  - WORKDIR
-  - ONBUILD
+  - [*ADD or COPY*](src/add-or-copy.md)
+  - [*ENTRYPOINT*](src/entrypoint.md)
+  - [*VOLUME*](src/volume.md)
+  - [*USER*](src/user.md)
+  - [*WORKDIR*](src/workdir.md)
+  - [*ONBUILD*](src/onbuild.md)
     
   
 
