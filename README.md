@@ -19,12 +19,12 @@
   ## [Dockerfile instructions](#)
   - FROM
   - LABEL
-  - RUN
-    - APT-GET
-    - USING PIPES
-  - CMD
-  - EXPOSE
-  - ENV
+  - [*RUN*](src/RUN.md)
+    - [*APT-GET*](src/apt-get.md)
+    - [*USING PIPES*](src/Using-pipes.md)
+  - [*CMD*](src/CMD.md)
+  - [*EXPOSE*](src/EXPOSE.md)
+  - [*ENV*](src/ENV.md)
   - [*ADD or COPY*](src/add-or-copy.md)
   - [*ENTRYPOINT*](src/entrypoint.md)
   - [*VOLUME*](src/volume.md)
