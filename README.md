@@ -18,7 +18,7 @@
   
   ## [Dockerfile instructions](#)
   - [FROM](src/FROM/from.md)
-  - LABEL
+  - [LABEL](src/LABEL/label.md)
   - [*RUN*](src/RUN.md)
     - [*APT-GET*](src/apt-get.md)
     - [*USING PIPES*](src/Using-pipes.md)
